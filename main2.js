@@ -14,7 +14,9 @@
 // num -=2;
 // num *=2;
  
-// console.log(++num + ++num + ++num);
+// ++num;
+// ++num;
+// ++num;
 // console.log(num);
 
 
@@ -39,7 +41,6 @@
 let x = +prompt("Enter x:"); 
 let y = +prompt("Enter y:");
 
-// [x, y] = [y, x];
 x=x+y;
 y=x-y;
 x=x-y;
