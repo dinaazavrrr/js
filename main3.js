@@ -49,7 +49,7 @@
 
 //6
 // let number = +prompt("Введіть номер місяця");
-// if ((number >= 1 && number <= 2) || 12){
+// if ((number >= 1 && number <= 2) || number===12){
 //     console.log("Зима");
 // }
 // else if (number >= 3 && number <= 5) {
@@ -79,22 +79,18 @@
 // }
 
 //9
-let user = prompt("who's there?");
-if(user==="Admin"){
-    let parol = prompt("password");
-    if(parol==="TheMaster"){
-        console.log("Welcome!");
-    }
-    else if(parol==" "){
-        console.log("wrong password");
-    }
-    else{
-        console.log("canceled");
-    }
-}
-else if(user==" "){
-    console.log("I don't know you");
-}
-else{
-    console.log("canseled");
-}
+// let user = prompt("Who's there?");
+// if (user === "Admin") {
+//     let password = prompt("Password");
+//     if (password === "TheMaster") {
+//         console.log("Welcome!");
+//     } else if (password === null || password === "") {
+//         console.log("Canceled");
+//     } else {
+//         console.log("Wrong password");
+//     }
+// } else if (user === null || user === "") {
+//     console.log("Canceled");
+// } else {
+//     console.log("I don't know you");
+// }
