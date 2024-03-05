@@ -92,7 +92,7 @@ if (user === "Admin") {
     } else {
         console.log("Wrong password");
     }
-} else if (user === null || user === "") {
+} else if (user === null) {
     console.log("Canceled");
 } else {
     console.log("I don't know you");
