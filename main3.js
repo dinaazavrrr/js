@@ -49,7 +49,7 @@
 
 //6
 // let number = +prompt("Введіть номер місяця");
-// if ((number >= 1 && number <= 2) || number===12){
+// if (number === 1 || number === 2 || number===12){
 //     console.log("Зима");
 // }
 // else if (number >= 3 && number <= 5) {
@@ -60,6 +60,9 @@
 // }
 // else if (number >= 9 && number <= 11) {
 //     console.log("Осінь"); 
+// }
+// else {
+//     console.log("Некоректне число місяця"); 
 // }
 
 //7
@@ -79,18 +82,18 @@
 // }
 
 //9
-// let user = prompt("Who's there?");
-// if (user === "Admin") {
-//     let password = prompt("Password");
-//     if (password === "TheMaster") {
-//         console.log("Welcome!");
-//     } else if (password === null || password === "") {
-//         console.log("Canceled");
-//     } else {
-//         console.log("Wrong password");
-//     }
-// } else if (user === null || user === "") {
-//     console.log("Canceled");
-// } else {
-//     console.log("I don't know you");
-// }
+let user = prompt("Who's there?");
+if (user === "Admin") {
+    let password = prompt("Password");
+    if (password === "TheMaster") {
+        console.log("Welcome!");
+    } else if (password === null) {
+        console.log("Canceled");
+    } else {
+        console.log("Wrong password");
+    }
+} else if (user === null || user === "") {
+    console.log("Canceled");
+} else {
+    console.log("I don't know you");
+}
