@@ -5,19 +5,18 @@
 // console.log('message:', message);
 
 //(2)
-// let user = prompt("Введіть повідомлення:");
-// switch (user) {
-//     case user:       
-//       console.log(user !== null ? user : 'Відміна вводу');
-//       break;
-//     case " ":
-//         console.log('Ви нічого не написали');
-//         break;
-//     default:
-//       console.log('Відміна вводу');
-//       break;
-//   }
-//   ????
+let user = prompt("Введіть повідомлення:");
+switch (user) {
+  case null:
+    console.log("Відміна вводу");
+    break;
+  case "":
+    console.log("Ви нічого не написали");
+    break;
+  default:
+    console.log(user);
+    break;
+}
 
 //(3)
 // let number = +prompt("Введіть номер місяця");
@@ -52,18 +51,18 @@
 // }
 
 //(5)-FOR
-// let number1 = +prompt("Введіть початкове число");
-// let number2 = +prompt("Введіть кінцеве число");
-// for (let i = number1; i <=number2 ; i++) {
+// let start = +prompt("Введіть початкове число");
+// let end = +prompt("Введіть кінцеве число");
+// for (let i = start; i <=end ; i++) {
 //     if ( i%5 === 0 ){
 //          console.log(i);
 //     }
 
 //(5)-WHILE
-// let number1 = +prompt("Введіть початкове число");
-// let number2 = +prompt("Введіть кінцеве число");
-// let i = number1;
-// while(i <=number2){
+// let start = +prompt("Введіть початкове число");
+// let end = +prompt("Введіть кінцеве число");
+// let i = start;
+// while(i <=end){
 //     if ( i%5 === 0 ){
 //          console.log(i); 
 //     }
@@ -104,11 +103,11 @@
 // console.log(result);
 
 //4
-let number = +prompt('Введіть число');
-let i = 1;
-result = " ";
-while(i<=number){
-    result += "*";
-    console.log(result);
-    i++;
-}
+// let number = +prompt('Введіть число');
+// let i = 1;
+// result = " ";
+// while(i<=number){
+//     result += "*";
+//     console.log(result);
+//     i++;
+// }
