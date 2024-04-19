@@ -10,8 +10,8 @@
 //1.2
 // function reverseString(str){
 //     let result = "";
-//     for(let i = str.at(-1); i=>0; i--){
-//         result += i;
+//     for(let i = str.length-1; i=>0; i--){
+//         result += str.at(i);
 //     }
 //     return result;
 // }
@@ -29,7 +29,7 @@
 //1.4
 // function generateFloat(n){
 //     let randomN = Math.random()*100;
-//     result = randomN.toFixed(n);
+//     let result = randomN.toFixed(n);
 //     return result;
 // }
 // console.log(generateFloat(2));
@@ -38,7 +38,7 @@
 
 //2
 // function isPalindrome(str) {
-//     str = str.toLowerCase();
+//     const lowercasedStr = str.toLowerCase();
 //     let i = 0;
 //     let j = str.length - 1;
     
