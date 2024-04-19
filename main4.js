@@ -5,38 +5,46 @@
 // console.log('message:', message);
 
 //(2)
-let user = prompt("Введіть повідомлення:");
-switch (user) {
-  case null:
-    console.log("Відміна вводу");
-    break;
-  case "":
-    console.log("Ви нічого не написали");
-    break;
-  default:
-    console.log(user);
-    break;
-}
+// let user = prompt("Введіть повідомлення:");
+// switch (user) {
+//   case null:
+//     console.log("Відміна вводу");
+//     break;
+//   case "":
+//     console.log("Ви нічого не написали");
+//     break;
+//   default:
+//     console.log(user);
+//     break;
+// }
 
 //(3)
-// let number = +prompt("Введіть номер місяця");
-// switch (true) {
-//     case number === 1 || number === 2 || number===12:       
-//       console.log("Зима");
-//       break;
-//     case number >= 3 && number <= 5 :
-//         console.log( "Весна");
-//         break;
-//     case number >= 6 && number <= 8 : 
-//           console.log("Літо");
-//           break;
-//     case number >= 9 && number <= 11 : 
-//          console.log("Осінь");
-//          break;      
-//     default:
-//       console.log('Некоректний номер місяця');
-//       break;
-//   }
+let number = +prompt("Введіть номер місяця");
+switch (true) {
+    case 1:
+    case 2:
+    case 12:
+      console.log("Зима");
+      break;
+    case 3:
+    case 4:
+    case 5:
+        console.log( "Весна");
+        break;
+    case 6:
+    case 7:
+    case 8:
+          console.log("Літо");
+          break;
+    case 9:
+    case 10:
+    case 11:
+         console.log("Осінь");
+         break;      
+    default:
+      console.log('Некоректний номер місяця');
+      break;
+  }
 
 //(4)-FOR
 // for (let i = 0; i <= 10; i++) {
