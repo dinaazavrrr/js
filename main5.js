@@ -14,26 +14,23 @@
 
 
 // function max(num1, num2){
-//        return (num1>num2) ? `${num1}` : `${num2}`
+//        return (num1>num2) ? num1 : num2;
 // }
 // console.log(max(7,6));
 
 // 2
-// function pow(x=5,n=4){
+// function pow(x=3,n=2){
 //     let result =1;
 //    for (let i = 0; i<n; i++){
 //     result*=x;
 //    }
 //    return result;
 // }
-// console.log(pow(3,3));
+// console.log(pow());
 
 
 //3
 // function sumOrConcatination(value1=15, value2=15){
-//     if (value1 === "undefined" && value2 === "undefined"){
-//         console.log("Результат суми 30");
-//     }
 //     if (value1 === "string" && value2 === "string"){
 //         console.log(`Результат конкатенації: ${value1} ${value2}`);
 //     }
@@ -42,11 +39,6 @@
 //         console.log(`Результат суми: ${result}`);
 //     }
 // }
-// console.log("Некоректні аргументи");
-
-// sumOrConcatination (7, "100 балів!");
-// sumOrConcatination (7,5);
-// sumOrConcatination ("Привіт", "Андрій");
 
 // function sumOrConcatination(value1=15, value2=15){
 //     for(let i = 0; i<=2; i++){
@@ -57,6 +49,7 @@
 // }
 // console.log(sumOrConcatination (7,8));
 // console.log(sumOrConcatination ());
+//console.log(sumOrConcatination ("привіт", "Андрій"));
 
 
 //4
