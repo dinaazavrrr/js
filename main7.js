@@ -18,12 +18,14 @@
 // let person = {
 //     firstName: "Diana",
 //     lastName: "Lutsyuk",
-//     contacts: contacts
+//     contacts,
 // }
 // console.log(person);
 
 //3 (я не впевнена що правильно зрозуміла завдання)
-// let topSeries = ["Шерлок", "Доктор Хаус", "Наглядач", "Кіберсталкер", "Хороший доктор"];
+// let topSeries = ["Доктор Хаус", "Наглядач", "Кіберсталкер"];
+// topSeries.splice(0,0,"Шерлок");
+// topSeries.push( "Хороший доктор");
 // console.log("Топ 1:", topSeries[0]);
 // console.log("Топ 5:", topSeries[4]);
 
@@ -64,8 +66,11 @@
     
 //         if(input===""||input === null){
 //             break;
+//         }  else if (!isNaN(input)) {
+//             numbers.push(+input);
+//         } else {
+//             alert("Будь ласка, введіть числове значення.");
 //         }
-//         numbers.push(+input);
 //     }
 //     let sum = numbers.reduce(sumReducer, 0);
 //     return sum;
@@ -83,7 +88,7 @@
 //      country: "USA"
 //     }
 //    };
-//    const{ job: currentJob, country: currentCountry } = person;
+//    const{ name, age, job: currentJob, city, country: currentCountry } = person;
 //    console.log(name , age, currentJob, city, currentCountry);
 
 //7
@@ -158,7 +163,7 @@ let {
         {
             authors: [
                 {
-                    books: [{ title: secondKidrukBookName }]
+                    books: [, secondKidrukBookName ]
                 },
                 {
                     books: [{ year: yearOfPublicationKobzar }]
@@ -170,5 +175,5 @@ let {
 
 console.log(firstBook);
 console.log(thirdBook);
-console.log(secondKidrukBookName);
+console.log(secondKidrukBookName.title);
 console.log(yearOfPublicationKobzar);
